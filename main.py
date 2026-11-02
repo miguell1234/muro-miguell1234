@@ -17,4 +17,4 @@ def salud():
 
 @app.get("/hola/{nombre}")
 def hola(nombre: str):
-    return {"mensaje": f"¡Hola, {nombre}!"}
+    return {"saludo": f"Hola, {nombre}"}
